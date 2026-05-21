@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nagaveni.A | JavaScript Solutions Freelancer</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="loader" id="page-loader">
+    <div class="loader-grid">
+      <span></span><span></span><span></span><span></span>
+    </div>
+    <p>Initializing Nagaveni.A</p>
+  </div>
+
+  <div class="cursor" id="custom-cursor"></div>
+  <div class="cursor-outline" id="cursor-outline"></div>
+
+  <header class="site-header">
+    <div class="nav-wrapper">
+      <a href="#home" class="brand">Nagaveni.<span>A</span></a>
+      <nav class="nav-links" id="navbar">
+        <a href="#home" class="nav-item active">Home</a>
+        <a href="#about" class="nav-item">About</a>
+        <a href="#services" class="nav-item">Services</a>
+        <a href="#projects" class="nav-item">Projects</a>
+        <a href="#skills" class="nav-item">Skills</a>
+        <a href="#contact" class="nav-item">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="menu-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-glow"></div>
+      <div class="hero-grid">
+        <div class="hero-copy reveal-up">
+          <span class="eyebrow">Futuristic JavaScript Portfolio</span>
+          <h1>JavaScript Solutions Freelancer</h1>
+          <p>Crafting responsive and interactive websites with clean code, glassmorphism design, and high-end performance for premium digital brands.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Hire Me</a>
+            <a href="#projects" class="btn btn-secondary">View Projects</a>
+          </div>
+          <div class="hero-badges">
+            <div><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </div>
+        </div>
+        <div class="hero-visual reveal-right">
+          <div class="visual-card">
+            <div class="code-tag">&lt;code&gt;</div>
+            <div class="code-lines">
+              <span class="line"></span>
+              <span class="line"></span>
+              <span class="line"></span>
+              <span class="line"></span>
+            </div>
+            <div class="code-footer">Interactive UI · Fast loading · Pixel perfect</div>
+          </div>
+        </div>
+      </div>
+      <div class="particle-layer" id="particle-layer"></div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-header reveal-up">
+        <span>About Me</span>
+        <h2>Professional introduction</h2>
+      </div>
+      <div class="about-grid">
+        <div class="glass-card reveal-left">
+          <h3>Hi, I'm Nagaveni.A</h3>
+          <p>I build premium JavaScript solutions for modern brands. My work is focused on responsive web experiences, optimized performance, and polished UI that feels futuristic yet accessible.</p>
+          <div class="info-list">
+            <div><strong>Experience</strong><span>Freelance developer</span></div>
+            <div><strong>Focus</strong><span>Web applications & interfaces</span></div>
+            <div><strong>Location</strong><span>Remote</span></div>
+          </div>
+        </div>
+        <div class="skills-panel reveal-right">
+          <div class="skill-pill">HTML</div>
+          <div class="skill-pill">CSS</div>
+          <div class="skill-pill">JavaScript</div>
+          <div class="skill-pill">Responsive Design</div>
+          <div class="skill-pill">UI/UX</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="section-header reveal-up">
+        <span>Services</span>
+        <h2>Solutions for digital brands</h2>
+      </div>
+      <div class="services-grid">
+        <article class="service-card reveal-up delay-1">
+          <div class="service-icon">🌐</div>
+          <h3>Responsive Website Design</h3>
+          <p>Designing beautiful interfaces that adapt fluidly across devices.</p>
+        </article>
+        <article class="service-card reveal-up delay-2">
+          <div class="service-icon">⚡</div>
+          <h3>JavaScript Web Applications</h3>
+          <p>Building interactive web apps with clean, maintainable JavaScript.</p>
+        </article>
+        <article class="service-card reveal-up delay-3">
+          <div class="service-icon">🐞</div>
+          <h3>Bug Fixing & Optimization</h3>
+          <p>Polishing code and performance for smooth user experiences.</p>
+        </article>
+        <article class="service-card reveal-up delay-4">
+          <div class="service-icon">🎨</div>
+          <h3>UI/UX Improvements</h3>
+          <p>Upgrading interfaces with modern layouts and intuitive interactions.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-header reveal-up">
+        <span>Portfolio</span>
+        <h2>Featured work</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card reveal-up delay-1">
+          <div class="project-label">Design System</div>
+          <h3>Neon Interface Landing Page</h3>
+          <p>Futuristic portfolio landing page with animated gradients and glass UI.</p>
+          <div class="project-stack">HTML · CSS · JavaScript</div>
+        </article>
+        <article class="project-card reveal-up delay-2">
+          <div class="project-label">Web App</div>
+          <h3>Interactive Dashboard</h3>
+          <p>Dashboard experience built with responsive cards and real-time visuals.</p>
+          <div class="project-stack">JavaScript · API · UX</div>
+        </article>
+        <article class="project-card reveal-up delay-3">
+          <div class="project-label">Optimization</div>
+          <h3>Performance Tuning</h3>
+          <p>Speed improvements, bug fixes, and enhanced cross-device stability.</p>
+          <div class="project-stack">JS · CSS · Accessibility</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-header reveal-up">
+        <span>Core Skills</span>
+        <h2>Technical proficiency</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card reveal-up delay-1">
+          <div class="circle-chart" data-value="90"><span>90%</span></div>
+          <h3>HTML</h3>
+        </div>
+        <div class="skill-card reveal-up delay-2">
+          <div class="circle-chart" data-value="88"><span>88%</span></div>
+          <h3>CSS</h3>
+        </div>
+        <div class="skill-card reveal-up delay-3">
+          <div class="circle-chart" data-value="92"><span>92%</span></div>
+          <h3>JavaScript</h3>
+        </div>
+        <div class="skill-details reveal-up delay-4">
+          <div class="progress-group">
+            <span>Responsive Design</span>
+            <div class="progress-bar"><span style="width: 96%"></span></div>
+          </div>
+          <div class="progress-group">
+            <span>UI/UX Design</span>
+            <div class="progress-bar"><span style="width: 84%"></span></div>
+          </div>
+          <div class="progress-group">
+            <span>App Optimization</span>
+            <div class="progress-bar"><span style="width: 90%"></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-header reveal-up">
+        <span>Contact</span>
+        <h2>Let's build your next project</h2>
+      </div>
+      <div class="contact-grid">
+        <form class="contact-form reveal-left" id="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Your email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Tell me about your project" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+        <div class="contact-details reveal-right">
+          <div class="detail-card">
+            <h3>Contact Info</h3>
+            <p><strong>Name</strong><span>Nagaveni.A</span></p>
+            <p><strong>Mobile</strong><span>9626954852</span></p>
+            <p><strong>Email</strong><span>nagaveninmc@gmail.com</span></p>
+          </div>
+          <div class="social-card">
+            <h3>Social</h3>
+            <div class="social-icons">
+              <a href="#" aria-label="LinkedIn">in</a>
+              <a href="#" aria-label="GitHub">GH</a>
+              <a href="#" aria-label="Twitter">TW</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://wa.me/9626954852" class="whatsapp-float" target="_blank" rel="noreferrer">WhatsApp</a>
+    </section>
+  </main>
+
+  <button class="scroll-top" id="scrollTop">↑</button>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p>© 2026 Nagaveni.A. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
